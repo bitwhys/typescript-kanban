@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .heading-xl {
+    @apply text-2xl font-bold leading-7;
+  }
+  .heading-lg {
+    @apply text-xl font-bold leading-7;
+  }
+  .heading-md {
+    @apply text-base font-semibold leading-5;
+  }
+  .heading-sm {
+    @apply text-sm font-bold leading-5 tracking-wider;
+  }
+  .smooth-colors {
+    @apply transition-colors duration-200 ease-in-out;
+  }
+}
